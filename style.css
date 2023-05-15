@@ -45,11 +45,36 @@ hr {
 }
 
 .fa-gear {
-    margin-left: 700px;
+    margin-left: 500px;
     margin-top: 25px;
 }
 
 .fa-gear:hover {
+    color: rgb(206, 206, 212);
+}
+
+.fa-bell {
+    margin-left: 10px;
+    margin-top: 25px;
+}
+
+.fa-bell:hover {
+    color: rgb(206, 206, 212);
+}
+
+.fa-heart {
+    margin-left: 10px;
+}
+
+.fa-heart:hover{
+    color: rgb(206, 206, 212);
+}
+
+.fa-user {
+    margin-left: 10px;
+}
+
+.fa-user:hover {
     color: rgb(206, 206, 212);
 }
 
