@@ -7,11 +7,89 @@ label[for="date"] {
     font-size: 18px;
     color: blue;
     margin-bottom: 10px;
-  }
-
-.box2 {
-    width: 1300px;
-    height: 600px;
-    margin-top: 200px;
-    background-color: rgb(165, 165, 165);
 }
+
+.filter {
+    width: 200px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    margin-left: 50px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Catamaran', sans-serif;
+    position: relative;
+}
+
+.filter p {
+    top: 10px;
+}
+  
+
+.hr2 {
+    width: 80%;
+    margin-top: -20px;
+}
+
+.box {
+    background-color: rgba(255, 255, 255, 0.527);
+}
+
+.car-types {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+  margin-right: 86px;
+}
+
+.car-types li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1px;
+}
+
+.car-types li input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.car-types li label {
+  flex-grow: 1;
+}
+
+.car-types:before {
+  content: "Car Types";
+  display: block;
+  margin-left: -40px;
+  margin-bottom: 5px;
+}
+
+.car-type-label {
+    font-family: 'Dosis', sans-serif;
+}
+
+.capacity-list {
+    margin-top: 20px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.capacity-list li {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.capacity-list input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.capacity-list label {
+  font-size: 16px;
+  font-size: 20px;
+}
+
+.capacity {
+    text-align: left;
+}
+  
