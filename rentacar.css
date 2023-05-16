@@ -1,0 +1,17 @@
+label {
+    margin-right: 1000px;
+}
+
+label[for="date"] {
+    font-weight: bold;
+    font-size: 18px;
+    color: blue;
+    margin-bottom: 10px;
+  }
+
+.box2 {
+    width: 1300px;
+    height: 600px;
+    margin-top: 200px;
+    background-color: rgb(165, 165, 165);
+}
